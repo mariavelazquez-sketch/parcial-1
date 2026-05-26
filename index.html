@@ -1,89 +1,146 @@
 <!DOCTYPE html>
-<html>
-  <head>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <main>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil y Comparativa - Velázquez Maria Silvina</title>
     <style>
-    h1 { 
-      color: brown;
-      font-size: 30px;
-      font-family: "Arial"; 
-    }
-    </style>
+        
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.8;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background-color: #f9f9f9;
+        }
 
-    <style>
-    h2 { 
-      color: magenta;
-      font-size: 24px;
-      font-family: "Arial";
-     }
-    </style>
+        
+        .perfil-header {
+            text-align: center;
+            border-bottom: 3px solid #2c3e50;
+            margin-bottom: 50px;
+            padding-bottom: 20px;
+        }
 
-    <style>
-    h3 {
-       color: green;
-       font-size: 20px;
-       font-family: "Times new roman"
-      }
-    </style>
+        .perfil-header h1 {
+            font-size: 2.2rem;
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
 
-    <style>
-    p {
-      color: gray;
-      font-size: 14px;
-      font-family: family_roboto condensed, sans-serif;
-      }
-    </style>
+        .perfil-header h2 {
+            font-weight: 400;
+            color: #7f8c8d;
+            font-size: 1.3rem;
+        }
 
-    <style>
-    li {
-      color: red;
-      font-size: 12px;
-      font-family: family_roboto condensed, sans-serif;
-      }
-    </style>
+        
+        .comparativa-section {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
 
-      <h1>CatPhotoApp</h1>
-      <section>
-        <h2>Cat Photos</h2>
-        <p>Everyone loves <a href="https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg">cute cats</a> online!</p>
-        <p>See more <a target="_blank" href="https://freecatphotoapp.com">cat photos</a> in our gallery.</p>
-        <a href="https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
-      </section>
-      <section>
-        <h2>Cat Lists</h2>
-        <h3>Things cats love:</h3>
-        <ul>
-          <li>catnip</li>
-          <li>laser pointers</li>
-          <li>lasagna</li>
+        h1.titulo-comparativa {
+            font-size: 1.8rem;
+            color: #1a1a1a;
+            margin-top: 0;
+        }
+
+        .subtitulo-moderno {
+            font-size: 1.1rem;
+            color: #555;
+            background: #eef2f3;
+            padding: 15px;
+            border-left: 5px solid #2980b9;
+            margin: 20px 0;
+        }
+
+        .diferencias-lista {
+            list-style: none;
+            padding: 0;
+        }
+
+        .item-diferencia {
+            margin-bottom: 25px;
+        }
+
+        .item-diferencia h3 {
+            color: #2980b9;
+            border-bottom: 1px solid #eee;
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+
+        .detalle-disenadora {
+            margin-bottom: 8px;
+        }
+
+        strong {
+            color: #000;
+        }
+
+        a {
+            color: #2980b9;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="perfil-header">
+        <h1>Velázquez Maria Silvina - Técnica en Diseño de Interiores</h1>
+        <h2>Graduada de la UPC en 2024</h2>
+        <p>
+            Mis principales referentes serían las diseñadoras de Equipamientos 
+            <a href="https://es.wikipedia.org/wiki/Charlotte_Perriand" target="_blank">Charlotte Perriand</a> (París 1903-1999) 
+            y <a href="https://es.wikipedia.org/wiki/Eileen_Gray" target="_blank">Eileen Gray</a> (Enniscorthy 1778- París 1976).
+        </p>
+    </header>
+
+    <main class="comparativa-section">
+        <h1 class="titulo-comparativa">Comparación entre Charlotte Perriand y Eileen Gray</h1>
+        
+        <p class="subtitulo-moderno">
+            Son dos de las figuras femeninas más influyentes del Movimiento Moderno en la arquitectura y el diseño del siglo XX.
+        </p>
+
+        <p>Son dos de las figuras femeninas más influyentes del Movimiento Moderno en la arquitectura y el diseño del siglo XX.</p>
+
+        <h2>Diferencias claves:</h2>
+
+        <ul class="diferencias-lista">
+            <li class="item-diferencia">
+                <h3>1 - Formación y enfoque</h3>
+                <div class="detalle-disenadora">
+                    <strong>Gray:</strong> Era autodidacta y su obra es profundamente artesanal y lujosa.
+                </div>
+                <div class="detalle-disenadora">
+                    <strong>Perriand:</strong> Se formó académicamente en París, se especializaba en diseño industrial y muebles estandarizados.
+                </div>
+            </li>
+
+            <li class="item-diferencia">
+                <h3>2 - Evolución estilística</h3>
+                <div class="detalle-disenadora">
+                    <strong>Gray:</strong> Abrazó el estilo Internacional, con una postura cálida y humanista.
+                </div>
+                <div class="detalle-disenadora">
+                    <strong>Perriand:</strong> Después de 1937 se alejó de los tubos de acero y exploró el uso de materiales naturales.
+                </div>
+            </li>
         </ul>
-        <figure>
-          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate.">
-          <figcaption>Cats <em>love</em> lasagna.</figcaption>  
-        </figure>
-        <h3>Top 3 things cats hate:</h3>
-        <ol>
-          <li>flea treatment</li>
-          <li>thunder</li>
-          <li>other cats</li>
-        </ol>
-        <figure>
-          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Two tabby kittens sleeping together on a couch.">
-          <figcaption>Cats <strong>hate</strong> other cats.</figcaption>  
-        </figure>
-      </section>
-      <section>
-        <h2>Cat Form</h2>
-        <form action="https://freecatphotoapp.com/submit-cat-photo">
-          <input type="text" name="catphotourl" placeholder="cat photo URL" required>
-          <button>Submit</button>
-        </form>
-      </section>
     </main>
-  </body>
+
+</body>
 </html>
+
+      
